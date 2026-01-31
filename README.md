@@ -2,7 +2,7 @@
 
 A lightweight version control system written in Rust, inspired by Git, implementing the most used commands from Git.
 
-## 📸 Screenshots
+## Screenshots
 <table>
   <tr>
     <td align="center">

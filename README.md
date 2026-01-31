@@ -25,9 +25,13 @@ A lightweight version control system written in Rust, inspired by Git, implement
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2">
+    <td align="center">
       <b>Merge</b><br>
       <img src="ReadMe_Images/merge.jpg" width="500" style="margin-bottom: 20px;"/>
+    </td>
+    <td align="center">
+      <b>Error Management</b><br>
+      <img src="ReadMe_Images/error.png" width="500" style="margin-bottom: 20px;"/>
     </td>
   </tr>
 </table>

@@ -1,0 +1,6 @@
+debug/
+target/
+*.pdb
+**/*.rs.bk
+rust_course_helper/
+**/*.exe

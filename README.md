@@ -114,9 +114,7 @@ my_svn diff <branch-name>
 my_svn help
 ```
 
-## Key Implementation Details
-
-### Architecture
+## Architecture
 - **Modular Design**: Separate command modules for each operation
 - **Error Handling**: Comprehensive error handling with context information
 - **Parallel Processing**: Uses Rayon for efficient file operations
@@ -124,7 +122,7 @@ my_svn help
 - **Optimization for hashing**: check the last timestamp from when the file was modified and calculate the hash only if the file was modified from the last save
 - **Ignore Rules**: Pattern-based file exclusion (glob patterns supported)
 
-### Internal Storage Structure
+## Internal Storage Structure
 - `.my_svn/` - Repository metadata directory
   - `objects/` - Stores file and commit objects
   - `refs/heads/` - Branch references
